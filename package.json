@@ -1,0 +1,21 @@
+{
+  "name": "templayed.js",
+  "version": "0.2.0",
+  "description": "templayed.js (The fastest and smallest Mustache compliant Javascript templating library) for node.js",
+  "main": "templayed.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/heldr/node-templayed.git"
+  },
+  "keywords": [
+    "template",
+    "engine",
+    "mustache",
+    "mustache.js"
+  ],
+  "author": "Paul Engel, Helder Santana",
+  "license": "MIT"
+}

@@ -1,4 +1,34 @@
 node-templayed
 ==============
 
-A simple port of templayed.js for node.js
+A simple port of [templayed.js][templayed] for node.js
+
+> The fastest and smallest Mustache compliant Javascript templating library
+[See more][templayed]
+
+## Getting Started
+Install it just running `npm install templayed.js` into your project.
+
+## HOW TO USE
+```js
+    var templayed = require('templayed.js');
+
+    var tpl  = "<ul>{{#names}}<li>{{../fullName}}</li>{{/names}}</ul>",
+        data = {
+            names: [{firstName: "Paul", lastName: "Engel"}, {firstName: "Chunk", lastName: "Norris"}],
+            fullName: function() {
+                return this.lastName + ", " + this.firstName;
+            }
+        };
+
+    var html = templayed(tpl)(data);
+
+    console.log( html ); //=> "<ul><li>Engel, Paul</li><li>Norris, Chunk</li></ul>";
+```
+
+(c) 2012 [Paul Engel][author] (Internetbureau Holder B.V.)
+
+Ported by Helder Santana
+
+[templayed]: https://github.com/archan937/templayed.js
+[author]: https://github.com/archan937
