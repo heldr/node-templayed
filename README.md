@@ -25,6 +25,10 @@ var html = templayed(tpl)(data);
 
 console.log( html ); //=> "<ul><li>Engel, Paul</li><li>Norris, Chunk</li></ul>";
 ```
+
+##JS PERF BENCHMARK
+[![JS PERF](https://raw.github.com/archan937/templayed.js/master/demo/assets/jsperf-benchmarks.png)](http://jsperf.com/mustache-compliant-libraries)
+
 ## CREDITS
 [Paul Engel][author] and [Helder Santana][gitio]
 
