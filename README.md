@@ -26,8 +26,7 @@ var html = templayed(tpl)(data);
 console.log( html ); //=> "<ul><li>Engel, Paul</li><li>Norris, Chunk</li></ul>";
 ```
 ## CREDITS
-[Paul Engel][author]
-[Helder Santana][gitio]
+[Paul Engel][author] and [Helder Santana][gitio]
 
 [templayed]: https://github.com/archan937/templayed.js
 [author]: https://github.com/archan937
