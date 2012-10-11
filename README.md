@@ -7,11 +7,11 @@ A simple port of [templayed.js][templayed] for node.js
 [See more][templayed]
 
 ## Getting Started
-Install it just running `npm install templayed.js` into your project.
+Install it just running `npm install templayed` into your project.
 
 ## HOW TO USE
 ```js
-var templayed = require('templayed.js');
+var templayed = require('templayed');
 
 var tpl  = "<ul>{{#names}}<li>{{../fullName}}</li>{{/names}}</ul>",
     data = {
