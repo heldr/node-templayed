@@ -8,7 +8,7 @@
 // * $Date: 2012-10-14 01:17:01 +0100 (Sun, 14 October 2012) $
 // *
 
-templayed = function(template, vars) {
+function templayed(template, vars) {
 
   var get = function(path, i) {
     i = 1; path = path.replace(/\.\.\//g, function() { i++; return ''; });
