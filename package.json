@@ -1,6 +1,6 @@
 {
   "name": "templayed",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "templayed.js (The fastest and smallest Mustache compliant Javascript templating library) for node.js",
   "main": "templayed.js",
   "scripts": {
